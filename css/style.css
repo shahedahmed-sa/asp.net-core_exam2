@@ -1,0 +1,58 @@
+/*
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*/
+@font-face{
+	font-family: Poppins-Regular;
+	src: url(../fonts/Poppins/Poppins-Regular.ttf);
+	
+}
+
+@font-face{
+	font-family: Poppins-Medium;
+	src: url(../fonts/Poppins/Poppins-Medium.ttf);
+	
+}
+
+@font-face{
+	font-family: Poppins-Bold;
+	src: url(../fonts/Poppins/Poppins-Bold.ttf);
+	
+}
+
+@font-face{
+	font-family: Roboto-Regular;
+	src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+
+/* common css start  */
+body{
+    font-family: 'Poppins-Regular'; 
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+/* common css start  */
+
+
+/* header start  */
+
+.footer-bottom{
+	margin: 70px 0 30px;
+    margin-top: 830px;
+}
+.footer-bottom p{
+	color: #000000;
+}
+.footer-bottom p a{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition: 0.33s;
+}
+
+.footer-bottom p a:hover{
+	color: #FD511A;
+}
+
+/*footer end*/
